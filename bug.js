@@ -1,0 +1,1 @@
+This React Native bug occurs when using AsyncStorage to store and retrieve data. The issue arises when the app is terminated or the device is restarted.  Data stored using AsyncStorage seems to disappear after the app closes. This is particularly problematic for persistent user settings or data that should survive app restarts.
